@@ -30,7 +30,7 @@
     methods: {
       async fetchDestinos() {
         try {
-            const response = await fetch('http://localhost:3000/destinos'); 
+            const response = await fetch('https://guia-ma.onrender.com/destinos'); 
             const data = await response.json();
             console.log(data);
             this.destinos = data; 
