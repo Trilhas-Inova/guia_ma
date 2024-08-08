@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "66b40e89112a431d8b30fac7"
+  },
+  "nome": "Praia de São Marcos",
+  "tipo": "Praia",
+  "descricao": "Uma das mais famosas praias de São Luís.",
+  "destinoId": "66b40e45112a431d8b30fac4"
+},
+{
+  "_id": {
+    "$oid": "66b40e89112a431d8b30fac8"
+  },
+  "nome": "Dunas dos Lençóis",
+  "tipo": "Duna",
+  "descricao": "Formações de dunas no Parque Nacional dos Lençóis Maranhenses.",
+  "destinoId": "66b40e45112a431d8b30fac5"
+},
+{
+  "_id": {
+    "$oid": "66b40e89112a431d8b30fac9"
+  },
+  "nome": "Centro Histórico de Alcântara",
+  "tipo": "Histórico",
+  "descricao": "Centro histórico preservado com arquitetura colonial.",
+  "destinoId": "66b40e45112a431d8b30fac6"
+}]

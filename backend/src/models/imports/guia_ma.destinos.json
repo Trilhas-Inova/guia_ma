@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "66b40e45112a431d8b30fac4"
+  },
+  "nome": "São Luís",
+  "imagemUrl": "https://imgs.search.brave.com/GFqL7I0_9VOR0TXim2wHBPf-8PNaXUMZRhk8VwGijoY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92aWFn/ZW1ldHVyaXNtby5h/YnJpbC5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMTIv/MDMvR2V0dHlJbWFn/ZXMtNDk5MjUxODI5/LmpwZw",
+  "longitude": -44.2833,
+  "latitude": -2.5307
+},
+{
+  "_id": {
+    "$oid": "66b40e45112a431d8b30fac5"
+  },
+  "nome": "Lençóis Maranhenses",
+  "imagemUrl": "https://imgs.search.brave.com/IWxfQbAUKUd_cls5PPGXx878paPMN-3CPqWV2VjUAK8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODYy/Nzc0MDIwL3Bob3Rv/L2xlbiVDMyVBNyVD/MyVCM2lzLW1hcmFu/aGVuc2VzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1fcDlI/R2xhcURBNXhTaXJm/T01CSXBNNVNvMDd2/Rk9aY2ZkRTlfM2JC/NUMwPQ",
+  "longitude": -42.8112,
+  "latitude": -2.4896
+},
+{
+  "_id": {
+    "$oid": "66b40e45112a431d8b30fac6"
+  },
+  "nome": "Alcântara",
+  "imagemUrl": "https://imgs.search.brave.com/SkySwpj-03bXVSrCHMq1fADCUgVWGxN1WOtkVI3Z5rA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly92aWFq/ZWlib25pdG8uY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzAzL2FsY2Fu/dGFyYS1tYXJhbmhh/by1wcmFjYS1kYS1t/YXRyaXotMi0xMDI0/eDY3Mi5qcGc",
+  "longitude": -44.3871,
+  "latitude": -2.3576
+}]
