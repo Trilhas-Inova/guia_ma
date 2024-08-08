@@ -3,11 +3,11 @@
       <CardComponent
         v-for="(destino, index) in destinos"
         :key="index"
-        :id="destino.id"
+        :id="destino._id"
         :imagemUrl="destino.imagemUrl"
         :nome="destino.nome"
         :descricao="destino.descricao"
-        buttonText="Saiba Mais"
+        buttonText="Atrativos"
       />
     </div>
   </template>
@@ -30,9 +30,10 @@
     methods: {
       async fetchDestinos() {
         try {
-            const response = await fetch('http://localhost:3000/destinos'); // Substitua pela URL da API externa
+            const response = await fetch('http://localhost:3000/destinos'); 
             const data = await response.json();
-            this.destinos = data; // Ajuste conforme a estrutura dos dados recebidos
+            console.log(data);
+            this.destinos = data; 
           
         } catch (error) {
           console.error('Erro ao buscar destinos:', error);

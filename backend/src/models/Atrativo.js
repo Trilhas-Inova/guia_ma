@@ -6,7 +6,7 @@ const atrativoSchema = new mongoose.Schema({
     nome: {type: String, required: true},
     tipo: {type: String},
     descricao: {type: String},
-    destino: {type: mongoose.Schema.Types.ObjectId, ref: 'destinos'},
+    destino: destinoSchema,
 },{versionKey:false});
 
 const Atrativo  = mongoose.model("atrativos", atrativoSchema);

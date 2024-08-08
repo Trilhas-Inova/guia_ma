@@ -1,0 +1,21 @@
+[
+    {
+      "nome": "São Luís",
+      "imagemUrl": "https://example.com/saoluiz.jpg",
+      "longitude": -44.2833,
+      "latitude": -2.5307
+    },
+    {
+      "nome": "Lençóis Maranhenses",
+      "imagemUrl": "https://example.com/lencois.jpg",
+      "longitude": -42.8112,
+      "latitude": -2.4896
+    },
+    {
+      "nome": "Alcântara",
+      "imagemUrl": "https://example.com/alcantara.jpg",
+      "longitude": -44.3871,
+      "latitude": -2.3576
+    }
+  ]
+      

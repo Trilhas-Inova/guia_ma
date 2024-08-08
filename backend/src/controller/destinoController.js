@@ -16,6 +16,15 @@ class DestinoController {
             res.status(500).send(`${error.message} - erro ao cadastrar o destino`)
         }
     }
+
+    static async listarDestinoPorId(req, res){
+        const id = req.params.id;  
+        const destinoEncontrado = await Destino.findById(id);
+        if(destinoEncontrado !== null){
+            res.status(200).json(destinoEncontrado);
+        }
+        res.status(404).send("Destino não encontrado");
+    }
 }   
 
 export default DestinoController;

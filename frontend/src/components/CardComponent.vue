@@ -1,43 +1,47 @@
 <template>
-    <div class="card">
-        <p invisible>{{ id }}</p>
-      <img :src="imagemUrl" :alt="name" class="card-image" />
-      <div class="card-body">
-        <h3 class="card-title">{{ nome }}</h3>
-        <p class="card-description">{{ descricao }}</p>
-        <button class="card-button" @click="goToAtrativos">{{ buttonText }}</button>
-      </div>
+  <div class="card">
+    <p invisible>{{ id }}</p>
+    <img :src="imagemUrl" :alt="nome" class="card-image" />
+    <div class="card-body">
+      <h3 class="card-title">{{ nome }}</h3>
+      <p class="card-description">{{ descricao }}</p>
+      <button class="card-button" @click="goToAtrativos">{{ buttonText }}</button>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    props: {
-      imagemUrl: {
-        type: String,
-        required: true
-      },
-      nome: {
-        type: String,
-        required: true
-      },
-      descricao: {
-        type: String,
-        required: true
-      },
-      buttonText: {
-        type: String,
-        default: 'Visitar'
-      }
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    id: {
+      type: String,
+      required: true
     },
-    methods: {
+    imagemUrl: {
+      type: String,
+      required: true
+    },
+    nome: {
+      type: String,
+      required: true
+    },
+    descricao: {
+      type: String,
+      required: true
+    },
+    buttonText: {
+      type: String,
+      default: 'Visitar'
+    }
+  },
+  methods: {
     goToAtrativos() {
-      // Redireciona para a página de atrativos, passando o ID como parâmetro na URL
       this.$router.push({ name: 'atrativos', params: { destinationId: this.id } });
     }
   }
-  };
-  </script>
+};
+</script>
+
   
   <style scoped>
   .card {
