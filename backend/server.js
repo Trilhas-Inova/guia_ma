@@ -6,7 +6,7 @@ import app from "./src/app.js";
 
 // Se quiser configurar opções específicas de CORS
 
-const PORT = 3000;
+const PORT = 443;
 
 // const server = http.createServer((req,res) => {
 
